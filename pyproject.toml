@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "inspect-speciesism-eval"
+version = "0.1.0"
+description = "Inspect AI evaluation for speciesism / animal-harm normalization in language models"
+authors = [{ name = "Abid Khan" }]
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = [
+    "inspect_ai>=0.3.158",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ruff",
+]
+
+[project.urls]
+"Source Code" = "https://github.com/LarytheLord/inspect-speciesism-eval"
+"Issue Tracker" = "https://github.com/LarytheLord/inspect-speciesism-eval/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"*" = ["*.yaml"]
+
+# Registers the package so `inspect eval speciesism_bench/<task>` resolves.
+[project.entry-points.inspect_ai]
+speciesism_bench = "speciesism_bench"
+
+[tool.ruff]
+src = ["src"]
+target-version = "py311"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

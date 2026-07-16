@@ -1,0 +1,9 @@
+title: "Speciesism: Animal-Harm Normalization in Language Models"
+description: |
+  Measures whether language models detect speciesist attitudes toward non-human
+  animals yet still rate them as morally acceptable. Follows the SpeciesismBench
+  methodology (Jotautaitė et al., arXiv:2508.11534).
+group: Safety
+tasks:
+  - name: speciesism_detection
+  - name: speciesism_acceptability
