@@ -42,8 +42,13 @@ inspect eval src/speciesism_bench/speciesism_bench.py@speciesism_detection --mod
 
 ## Dataset status
 
-The items in `src/speciesism_bench/dataset.py` are a small, original,
-hand-authored placeholder set used to develop and validate the harness. They are
-not the SpeciesismBench corpus. The record schema mirrors that dataset so the
-real items can be substituted once their licensing permits redistribution; until
-then this repository ships only original examples.
+The items in `src/speciesism_bench/dataset.py` are a small, **original**
+evaluation set (51 items: 35 speciesist statements across four failure modes —
+instrumentalization, suffering-dismissal, moral-exclusion, taste-priority — plus
+16 non-speciesist controls). Some were hand-authored; some were model-drafted and
+then human-reviewed. They are **not** the SpeciesismBench corpus (1,003 items),
+which is not publicly released. The record schema mirrors that dataset so the real
+items can be substituted if they become available; until then this repository
+ships only original examples. This eval therefore *follows the methodology* of
+SpeciesismBench (the detection-vs-acceptability gap) rather than reproducing its
+data.
