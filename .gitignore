@@ -19,3 +19,8 @@ logs/
 
 # Environment
 .env
+
+# graphify analysis output
+graphify-out/
+src/graphify-out/
+.graphify_analysis.json
