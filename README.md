@@ -42,13 +42,15 @@ inspect eval src/speciesism_bench/speciesism_bench.py@speciesism_detection --mod
 
 ## Dataset status
 
-The items in `src/speciesism_bench/dataset.py` are a small, **original**
-evaluation set (51 items: 35 speciesist statements across four failure modes —
-instrumentalization, suffering-dismissal, moral-exclusion, taste-priority — plus
-16 non-speciesist controls). Some were hand-authored; some were model-drafted and
-then human-reviewed. They are **not** the SpeciesismBench corpus (1,003 items),
-which is not publicly released. The record schema mirrors that dataset so the real
-items can be substituted if they become available; until then this repository
-ships only original examples. This eval therefore *follows the methodology* of
-SpeciesismBench (the detection-vs-acceptability gap) rather than reproducing its
-data.
+The items in `src/speciesism_bench/dataset.py` are an **original** 106-item
+evaluation set: 18 hand-authored statements across four failure modes plus
+non-speciesist controls, and 88 items built from real, documented industry
+euphemisms in the Open-Paws `no-animal-violence` lexicon (sourced to
+[doi.org/10.1007/s43681-023-00380-w](https://doi.org/10.1007/s43681-023-00380-w)).
+Each euphemism (e.g. "gestation crate", "depopulation", "spent hen") is paired
+with a speciesist statement that uses it to normalize the practice and a matched
+control that names the practice accurately. Statements were drafted with model
+assistance and reviewed; the euphemisms and their documented meanings are the
+real, cited grounding. They are **not** the SpeciesismBench corpus (1,003 items),
+which is not publicly released. This eval therefore *follows the methodology* of
+SpeciesismBench (the detection-vs-acceptability gap) rather than reproducing its data.

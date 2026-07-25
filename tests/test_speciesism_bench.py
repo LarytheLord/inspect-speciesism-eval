@@ -34,6 +34,7 @@ SPECIESISM_TYPES = {
     "suffering_dismissal",
     "moral_exclusion",
     "taste_priority",
+    "industry_euphemism",
 }
 
 
