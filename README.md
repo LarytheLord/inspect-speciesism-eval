@@ -45,8 +45,7 @@ inspect eval src/speciesism_bench/speciesism_bench.py@speciesism_detection --mod
 The items in `src/speciesism_bench/dataset.py` are an **original** 106-item
 evaluation set: 18 hand-authored statements across four failure modes plus
 non-speciesist controls, and 88 items built from real, documented industry
-euphemisms in the Open-Paws `no-animal-violence` lexicon (sourced to
-[doi.org/10.1007/s43681-023-00380-w](https://doi.org/10.1007/s43681-023-00380-w)).
+euphemisms in the Open-Paws [`no-animal-violence`](https://github.com/Open-Paws/no-animal-violence) lexicon.
 Each euphemism (e.g. "gestation crate", "depopulation", "spent hen") is paired
 with a speciesist statement that uses it to normalize the practice and a matched
 control that names the practice accurately. Statements were drafted with model
