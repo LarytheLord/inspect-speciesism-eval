@@ -2,9 +2,12 @@ title: "Speciesism: Animal-Harm Normalization in Language Models"
 description: |
   An independent Inspect eval measuring the gap between whether a model DETECTS
   speciesist statements and whether it CONDEMNS them, following the methodology of
-  SpeciesismBench (Jotautaitė et al., arXiv:2508.11534). Uses an original 51-item
-  dataset (35 speciesist statements across four failure modes + 16 non-speciesist
-  controls) — NOT the paper's 1003-item corpus, which is not publicly released.
+  SpeciesismBench (Jotautaitė et al., arXiv:2508.11534). Uses an original 106-item
+  dataset: 56 speciesist statements (44 grounded in documented industry euphemisms
+  from the Open-Paws no-animal-violence lexicon, plus 12 across four failure modes —
+  instrumentalization, suffering-dismissal, moral-exclusion, taste-priority) and 50
+  non-speciesist controls — NOT the paper's 1003-item corpus, which is not publicly
+  released.
 group: Safety
 tasks:
   - name: speciesism_detection
