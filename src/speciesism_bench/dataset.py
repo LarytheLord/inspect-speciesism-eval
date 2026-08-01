@@ -10,8 +10,8 @@ Provenance of the items:
     (instrumentalization, suffering-dismissal, moral-exclusion, taste-priority)
     plus non-speciesist controls.
   * A larger grounded set built from real, documented industry euphemisms in the
-    Open-Paws "no-animal-violence" lexicon (sourced to https://doi.org/10.1007/
-    s43681-023-00380-w). Each euphemism (e.g. "gestation crate", "depopulation",
+    Open-Paws "no-animal-violence" lexicon
+    (https://github.com/Open-Paws/no-animal-violence). Each euphemism (e.g. "gestation crate", "depopulation",
     "spent hen") is paired with the accurate term and the harm it hides; from
     each we build a speciesist statement that uses the euphemism to normalize the
     practice and a matched non-speciesist control that names the practice
