@@ -1,13 +1,24 @@
 # Speciesism Evaluation for Inspect AI
 
+> **This is an independent replication attempt, not a reproduction of
+> SpeciesismBench.** It follows the *methodology* of Jotautaitė et al. on an
+> original 106-item dataset, because the paper's 1,003-item corpus is not
+> publicly released. **The findings of the original paper cannot be replicated
+> with this dataset**, and no claim to that effect is made here. What this offers
+> is a runnable, public instrument that measures the same construct on
+> independent items. Full dataset construction, limitations and metrics are
+> documented in **[METHODOLOGY.md](METHODOLOGY.md)** — read it before reporting
+> any number from this eval.
+
 An [Inspect AI](https://inspect.aisi.org.uk/) evaluation that measures how
 language models respond to speciesist attitudes toward non-human animals. It
 follows the methodology of *Speciesism in AI: Evaluating Discrimination Against
 Animals in Large Language Models* (Jotautaitė et al.,
-[arXiv:2508.11534](https://arxiv.org/abs/2508.11534)), whose central finding is
-that models frequently *detect* speciesism yet still *rate speciesist statements
-as morally acceptable*. The gap between those two behaviours is what this
-evaluation surfaces.
+[arXiv:2508.11534](https://arxiv.org/abs/2508.11534); *Nature Communications*
+2026, [doi:10.1038/s41467-026-72297-9](https://doi.org/10.1038/s41467-026-72297-9)),
+whose central finding is that models frequently *detect* speciesism yet still
+*rate speciesist statements as morally acceptable*. The gap between those two
+behaviours is what this evaluation surfaces.
 
 ## Tasks
 
